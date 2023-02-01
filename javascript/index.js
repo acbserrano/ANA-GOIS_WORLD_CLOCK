@@ -22,6 +22,28 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+
+  let TokyoElement = document.querySelector("#tokyo");
+  if (TokyoElement) {
+    let TokyoDateElement = TokyoElement.querySelector(".date");
+    let TokyoTimeElement = TokyoElement.querySelector(".time");
+    let TokyoTime = moment().tz("Asia/Tokyo");
+
+    TokyoDateElement.innerHTML = TokyoTime.format("MMMM Do YYYY");
+    TokyoTimeElement.innerHTML = TokyoTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
+
+  let LimaElement = document.querySelector("#lima");
+  if (LimaElement) {
+    let LimaDateElement = LimaElement.querySelector(".date");
+    let LimaTimeElement = LimaElement.querySelector(".time");
+    let LimaTime = moment().tz("America/Lima");
+
+    LimaDateElement.innerHTML = LimaTime.format("MMMM Do YYYY");
+    LimaTimeElement.innerHTML = LimaTime.format("h:mm:ss [<small>]A[</small>]");
+  }
 }
 
 function updateCity(event) {

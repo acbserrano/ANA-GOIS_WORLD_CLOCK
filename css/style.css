@@ -44,7 +44,7 @@ select {
   color: red;
   font-family: "Roboto", sans-serif;
   background-color: none;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
 }
 
 .city {
@@ -85,4 +85,24 @@ select {
 
 .coded-link {
   color: lightcoral;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: none;
+  color: lightcoral;
+}
+
+a:active {
+  text-decoration: none;
+  color: red;
 }
