@@ -33,7 +33,7 @@ select {
   margin-top: 70px;
   font-family: "Roboto", sans-serif;
   max-width: 900px;
-  height: 900px;
+  height: 835px;
   margin: 0 auto;
   color: red;
   padding-top: 60px;
@@ -81,7 +81,6 @@ select {
 .coded {
   text-align: center;
   font-size: 10px;
-  padding-top: 400px;
 }
 
 .coded-link {
