@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="css/style.css" />
     <title>Ana Gois World Clock</title>
     <link
@@ -13,27 +14,34 @@
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
-      <select>
-        <option value="">Select a city</option>
-        <option value="">Lisbon</option>
-        <option value="">New York</option>
-        <option value="">Paris</option>
-      </select>
+      <h1>World clock</h1>
+      <div class="choice">
+        <select>
+          <option value="">Select a city</option>
+          <option value="">Lisbon</option>
+          <option value="">New York</option>
+          <option value="">Paris</option>
+        </select>
+      </div>
+      <div class="big">
+        <div class="city">
+          <div>
+            <h2>Los Angeles</h2>
+            <div class="date">January 31st 2023</div>
+          </div>
+          <div class="time">02:00:40 <small>AM</small></div>
+        </div>
 
-      <div class="city">
-        <h2>Los Angeles 🇺🇸</h2>
-        <div class="date">January 31st 2023</div>
-        <div class="time">22:00:40</div>
+        <div class="city">
+          <div>
+            <h2>Paris</h2>
+            <div class="date">January 31st 2023</div>
+          </div>
+          <div class="time">02:00:40 <small>AM</small></div>
+        </div>
       </div>
 
-      <div class="city">
-        <h2>Sidney 🇦🇺</h2>
-        <div class="date">January 31st 2023</div>
-        <div class="time">22:00:40</div>
-      </div>
-
-      <footer>
+      <div class="coded">
         <a
           href="https://github.com/acbserrano/ANA-GOIS_WORLD_CLOCK"
           target="_blank"
@@ -41,7 +49,7 @@
           >Open source code</a
         ><br />
         by Ana Góis
-      </footer>
+      </div>
       <script src="javascript/index.js"></script>
     </div>
   </body>
