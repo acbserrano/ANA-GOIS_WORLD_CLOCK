@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+  font-size: 30px;
   padding-top: 70px;
   padding-left: 280px;
   margin-bottom: 5px;
@@ -61,16 +62,16 @@ select {
 }
 
 .time {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
-  padding-top: 19px;
+  padding-top: 27px;
 }
 
 .time small {
   font-size: 15px;
   font-weight: bold;
   position: relative;
-  top: -6px;
+  top: -9px;
 }
 
 .date {
